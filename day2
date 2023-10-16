@@ -1,0 +1,10 @@
+# Swap two numbers without using numerical values
+a = 'First Number'
+b = 'Second Number'
+
+print(f"Before swapping: {a} = 'First Number', {b} = 'Second Number'")
+
+# Swapping without using numerical values
+a, b = b, a
+
+print(f"After swapping: {a} = 'Second Number', {b} = 'First Number'")
